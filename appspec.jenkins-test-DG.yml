@@ -3,6 +3,9 @@ os: linux
 files:
   - source: ./index.html
     destination: /var/www/html/
+	
+  - source: ./scripts/*.sh
+  - destination: /home/ubuntu/
 hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
