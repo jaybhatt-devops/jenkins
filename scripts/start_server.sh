@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /home/ubuntu/
-touch scriptexecuted2time
+echo "<h3>Server.sh scripted Executed</h3>" > /var/www/html/index.html
